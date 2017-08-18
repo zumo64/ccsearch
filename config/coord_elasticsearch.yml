@@ -1,0 +1,10 @@
+search:
+    remote:
+        cluster_one: 
+            seeds: cluster1_data01:9300
+        cluster_two: 
+            seeds: cluster2_data01:9300
+
+xpack:
+  monitoring:
+    enabled: false

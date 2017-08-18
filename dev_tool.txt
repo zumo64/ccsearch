@@ -1,0 +1,5 @@
+POST /cluster_one:timedata-*/_search
+
+POST /cluster_two:timedata-*/_search
+
+POST /cluster_two:timedata-*,cluster_one:timedata-*/_search
